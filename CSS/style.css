@@ -5,90 +5,48 @@
 }
 
 /* Header Rules */
-
 header {
     height: 50px;
     background-color: #D2451E;
 }
 
-    /* Nav Section Rules */
-    .bar {
+    .center {
         width: 80%;
         margin: 0 auto;
+        padding: 15px;
         display: flex;
         justify-content: space-between;
         /* DEBUG */
-        border: 1px solid black;
-        height: 100%;
+        /* border: 1px dashed black; */
     }
 
-    .bar div {
-        /* DEBUG */
-        width: 30%;
-        height: 100%;
-        border: 1px solid black;
-    }
-
-        /* Customer Shop Rules */
-        #cust-shop {
+        .cust {
+            width: 20%;
+            min-height: 50%;
+            /* border: 1px dashed black; */
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
+            list-style-type: none;
         }
 
-        #cust-shop div {
-            /* DEBUG */
-            width: 30%;
-            height: 100%;
-            border: 1px solid black;
-        }
+            .item {
+                text-decoration: none;
+                color: white;
+            }
 
-        /* User Menu Rules */
-        #user-menu {
-            display: flex;
-            justify-content: space-evenly;
-        }
+            #logo {
+                max-height: 20px;
+            }
 
-        #user-menu div {
-            /* DEBUG */
-            width: 30%;
-            height: 100%;
-            border: 1px solid black;
-        }
+            .menu {
+                width: 10%;
+            }
 
-/* Main Rules */
+           
 
-    /* Row Rules */
-    .row {
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-evenly;
-        /* DEBUG */
-        border: 1px solid black;
-        min-height: 300px;
-    }
-
-        .row div {
-            /* DEBUG */
-            width: 30%;
-            border: 1px solid black;
-        }
 
 /* Footer Rules */
 footer {
     height: 80px;
     background-color: #1a1a1a;
 }
-
-    /* Bottom Bar Rules */
-    .bot {
-        /* DEBUG */
-        border: 1px solid lightcoral;
-    }
-
-    .bot div {
-        /* DEBUG */
-        width: 20%;
-        height: 100%;
-        border: 1px solid lightcoral;
-    }

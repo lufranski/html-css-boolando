@@ -42,6 +42,16 @@ header {
                 width: 10%;
             }
 
+            .cust.legal {
+                width: 80%;
+                margin-top: 2%;
+            }
+
+            .cust.brands {
+                width: 50%;
+                margin-top: 2%;
+            }
+
            
 
 
@@ -49,4 +59,18 @@ header {
 footer {
     height: 80px;
     background-color: #1a1a1a;
+    color: #fff;
 }
+
+    .bot {
+        width: 40%;
+    }
+
+    .legal {
+        font-size: 12px;
+    }
+
+    .left {
+        width: 40%;
+        padding-left: 32%;
+    }

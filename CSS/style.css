@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Rules */
+
+header {
+    height: 50px;
+    background-color: #D2451E;
+}
+
+    /* Nav Section Rules */
+    .bar {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        /* DEBUG */
+        border: 1px solid black;
+        height: 100%;
+    }
+
+    .bar div {
+        /* DEBUG */
+        width: 30%;
+        height: 100%;
+        border: 1px solid black;
+    }
+
+        /* Customer Shop Rules */
+        #cust-shop {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #cust-shop div {
+            /* DEBUG */
+            width: 30%;
+            height: 100%;
+            border: 1px solid black;
+        }
+
+        /* User Menu Rules */
+        #user-menu {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #user-menu div {
+            /* DEBUG */
+            width: 30%;
+            height: 100%;
+            border: 1px solid black;
+        }
+
+/* Main Rules */
+
+    /* Row Rules */
+    .row {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        /* DEBUG */
+        border: 1px solid black;
+        min-height: 300px;
+    }
+
+        .row div {
+            /* DEBUG */
+            width: 30%;
+            border: 1px solid black;
+        }
+
+/* Footer Rules */
+footer {
+    height: 80px;
+    background-color: #1a1a1a;
+}
+
+    /* Bottom Bar Rules */
+    .bot {
+        /* DEBUG */
+        border: 1px solid lightcoral;
+    }
+
+    .bot div {
+        /* DEBUG */
+        width: 20%;
+        height: 100%;
+        border: 1px solid lightcoral;
+    }

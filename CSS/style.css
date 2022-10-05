@@ -53,6 +53,21 @@ header {
             }
 
            
+/* Main Rules */
+.row{
+    justify-content: center;
+}
+
+.row div {
+    min-width: 200px;
+    min-height: 300px;
+    border: 1px dashed black;
+    margin-left: 20px;
+}
+
+    .photo {
+        max-width: 300px;
+    }
 
 
 /* Footer Rules */
